@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Array {
@@ -8,9 +7,12 @@ public class Array {
        String studentList[]={"jonnas","hermela","kira","Meriam","Eyerus","Abel","Hego","hanna","zerihun","alex","dav","asede"};
 
         String javaStudentList[][]= new String[3][4];
+
+
+       System.arraycopy(studentList, 3, javaStudentList[1],0,4);
+
         System.out.println(Arrays.deepToString(javaStudentList));
 
-//        System.arraycopy(studentList, 0,javaStudentList, 0,4);
 
 
 

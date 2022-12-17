@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Examples {
@@ -26,6 +25,8 @@ public class Examples {
 //        System.out.println("hello "+name+" "+ageStatus);
 
         boolean condominiumStatusCheck;
+
+
         boolean isPreviouslyRegistered;
         boolean isNewlyRegistered;
         boolean hasCriminalRecord;
